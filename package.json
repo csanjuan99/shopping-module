@@ -16,10 +16,11 @@
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.51.0",
     "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "dev:local": "tsc && node --watch dist/main.js",
+    "dev:local": "ts-node src/main.ts",
     "start": "node dist/main.js",
     "build": "tsc",
     "format": "prettier --config .prettierrc src/**/*.ts --write",

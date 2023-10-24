@@ -2,10 +2,10 @@ import mongoose from 'mongoose';
 
 export class InfrastructureModule {
   private static instance: InfrastructureModule;
-  private connection: mongoose.Connection | null;
+  private connection: mongoose.Connection;
 
   private constructor() {
-    this.connection = null;
+    this.connection = new mongoose.Connection();
   }
 
   static getInstance(): InfrastructureModule {
@@ -40,7 +40,7 @@ export class InfrastructureModule {
     this.connection = connection;
   }
 
-  public getConnection(): mongoose.Connection | null {
+  public getConnection(): mongoose.Connection {
     return this.connection;
   }
 }
