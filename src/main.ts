@@ -1,6 +1,7 @@
-import express, { Express } from 'express';
-import { ApplicationCoreModule } from './application-core/application-core.module';
+import { AppModule } from './app.module';
 
-const app: Express = express();
+const init = () => {
+  AppModule.getInstance().init();
+};
 
-ApplicationCoreModule.getInstance().init(app);
+init();
