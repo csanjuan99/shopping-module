@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c3f06e-aeb6-43cf-ba93-414c14264446" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kubernetes-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shopping-module.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application-core/application-core.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application-core/product/use-cases/findMany.interactor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/interfaces/IInteractor.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +68,8 @@
       <workItem from="1697723860942" duration="8921000" />
       <workItem from="1698150233724" duration="14660000" />
       <workItem from="1698170958388" duration="5606000" />
-      <workItem from="1698176644024" duration="1660000" />
+      <workItem from="1698176644024" duration="1693000" />
+      <workItem from="1698240067320" duration="1400000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,8 @@
 import express, { Express } from 'express';
 import { ApplicationCoreModule } from './application-core/application-core.module';
 import { UserInterfaceModule } from './user-interface/user-interface.module';
+import {InfrastructureModule} from "./infrastructure/infrastructure.module";
+import {PersistenceModule} from "./infrastructure/persistence/persistence.module";
 
 export class AppModule {
   private static instance: AppModule;
@@ -26,6 +28,7 @@ export class AppModule {
     this.app.listen(9000, (): void => {
       ApplicationCoreModule.getInstance().init();
       UserInterfaceModule.getInstance().init();
+      InfrastructureModule.getInstance().init();
     });
   }
 }
