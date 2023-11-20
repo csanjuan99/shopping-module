@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="57c3f06e-aeb6-43cf-ba93-414c14264446" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/application-core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/products/use-cases/findMany.interactor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/container/provider.container.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/interfaces/IController.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/controllers/product.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +39,26 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\desar\\dev\\apps\\node-apps\\shopping-module\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\desar\\dev\\apps\\node-apps\\shopping-module\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\desar\\dev\\apps\\node-apps\\shopping-module\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\dev\\apps\\node-apps\\shopping-module\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src\application-core" />
@@ -53,6 +66,23 @@
       <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src\application-core\product" />
       <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev:local" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:local" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev:local" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,6 +100,10 @@
       <workItem from="1698170958388" duration="5606000" />
       <workItem from="1698176644024" duration="1693000" />
       <workItem from="1698240067320" duration="1400000" />
+      <workItem from="1698929963602" duration="4785000" />
+      <workItem from="1699525403355" duration="3542000" />
+      <workItem from="1700412601917" duration="646000" />
+      <workItem from="1700435638804" duration="7459000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,11 @@
-import {ProductSchema} from './schemas/product.schema';
-import  mongoose from "mongoose";
-import {Provider} from "../../common/container/provider.container";
+import mongoose from "mongoose";
+import {Provider} from "../../config/provider/provider";
+import {ProductSchema} from "./schemas/product.schema";
 
 export class PersistenceModule {
 
     private static instance: PersistenceModule;
-    private connection: mongoose.Connection;
+    private readonly connection: mongoose.Connection;
     private SCHEMAS = [ProductSchema];
 
     constructor() {
@@ -21,10 +21,10 @@ export class PersistenceModule {
         return PersistenceModule.instance;
     }
 
-    public async init() {
+    public init() {
         for (const schema of this.SCHEMAS) {
-            console.log(`Registering schema ${schema.name}`)
             this.connection.model(schema.name, schema.schema);
+            Provider.getInstance().register('Connection', this.connection);
         }
     }
 }

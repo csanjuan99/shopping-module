@@ -1,5 +1,3 @@
-// Create  IoC container for dependency injection manually
-
 export class Provider {
   private static instance: Provider;
   private static dependencies = new Map<string, any>();
