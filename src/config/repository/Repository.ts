@@ -1,4 +1,4 @@
-import {Provider} from "../provider/provider";
+import {IoC} from "../provider/IoC";
 import mongoose from "mongoose";
 
 export abstract class Repository {
@@ -9,7 +9,7 @@ export abstract class Repository {
 
     protected constructor(model: string) {
         this.model = model;
-        this.connection = Provider.getInstance().resolve('Connection');
+        this.connection = IoC.getInstance().resolve('Connection');
     }
 
     public async findAll(): Promise<any> {

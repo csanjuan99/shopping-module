@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import {Provider} from "../../config/provider/provider";
+import {IoC} from "../../config/provider/IoC";
 import {ProductSchema} from "./schemas/product.schema";
 
 export class PersistenceModule {
@@ -9,7 +9,7 @@ export class PersistenceModule {
     private SCHEMAS = [ProductSchema];
 
     constructor() {
-        this.connection = Provider.getInstance().resolve('Connection')
+        this.connection = IoC.getInstance().resolve('Connection')
     }
 
 
@@ -24,7 +24,7 @@ export class PersistenceModule {
     public init() {
         for (const schema of this.SCHEMAS) {
             this.connection.model(schema.name, schema.schema);
-            Provider.getInstance().register('Connection', this.connection);
+            IoC.getInstance().register('Connection', this.connection);
         }
     }
 }

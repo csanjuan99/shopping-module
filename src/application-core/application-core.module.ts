@@ -1,5 +1,5 @@
 import {FindManyInteractor} from "./product/use-cases/findMany.interactor";
-import {Provider} from "../config/provider/provider";
+import {IoC} from "../config/provider/IoC";
 
 
 export class ApplicationCoreModule {
@@ -20,7 +20,7 @@ export class ApplicationCoreModule {
 
     public init() {
         for (const provider of this.PROVIDERS) {
-            Provider.getInstance().register(provider.constructor.name, provider);
+            IoC.getInstance().register(provider.constructor.name, provider);
         }
     }
 }

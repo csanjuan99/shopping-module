@@ -1,6 +1,6 @@
 import {Express, Router} from "express";
 
-export interface Controller {
+export interface IController {
     router: Router;
     app: Express;
 

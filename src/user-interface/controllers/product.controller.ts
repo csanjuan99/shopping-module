@@ -1,21 +1,22 @@
 import express, {Express} from 'express';
 import {AppModule} from '../../app.module';
-import {Controller} from "../../config/controller/controller.interface";
-import {Provider} from "../../config/provider/provider";
 import {FindManyInteractor} from "../../application-core/product/use-cases/findMany.interactor";
+import {IController} from "../../config/controller/IController";
+import {IoC} from "../../config/provider/IoC"
+import {JwtMiddleware} from "../../infrastructure/auth/middleware/jwt.middleware";
 
-export class ProductController implements Controller {
+export class ProductController implements IController {
     router = express.Router();
     app: Express;
 
     constructor(
-        private readonly findManyInteractor: FindManyInteractor = Provider.getInstance().resolve('FindManyInteractor')
+        private readonly findManyInteractor: FindManyInteractor = IoC.getInstance().resolve('FindManyInteractor')
     ) {
         this.app = AppModule.getInstance().app;
     }
 
     public async findAll(): Promise<any> {
-        this.router.get('/products', async (req, res) => {
+        this.router.get('/products', JwtMiddleware, async (req, res) => {
             return this.findManyInteractor.execute(req, res)
         });
     }

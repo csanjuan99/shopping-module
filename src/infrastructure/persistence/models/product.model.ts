@@ -1,4 +1,3 @@
-import {Model} from "../../../config/model/model";
 import mongoose from "mongoose";
 
 export class ProductModel extends mongoose.Document {
@@ -17,6 +16,4 @@ export class ProductModel extends mongoose.Document {
         this.stock = stock;
         this.isFeatured = isFeatured;
     }
-
-
 }

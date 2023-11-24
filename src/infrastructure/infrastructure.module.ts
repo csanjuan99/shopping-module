@@ -1,5 +1,5 @@
 import * as mongoose from "mongoose";
-import {Provider} from "../config/provider/provider";
+import {IoC} from "../config/provider/IoC";
 
 export class InfrastructureModule {
     private static instance: InfrastructureModule;
@@ -21,7 +21,7 @@ export class InfrastructureModule {
 
     private setConnection(connection: mongoose.Connection) {
         this.connection = connection
-        Provider.getInstance().register('Connection', this.connection)
+        IoC.getInstance().register('Connection', this.connection)
     }
 
     public static getInstance() {
