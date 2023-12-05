@@ -1,6 +1,7 @@
 import {AppModule} from '../app.module';
 import {ProductController} from "./controllers/product.controller";
 import {AuthController} from "./controllers/auth.controller";
+import {TransactionController} from "./controllers/transaction.controller";
 
 export class UserInterfaceModule {
     private static instance: UserInterfaceModule;
@@ -8,7 +9,8 @@ export class UserInterfaceModule {
 
     private CONTROLLERS: any[] = [
         new ProductController(),
-        new AuthController()
+        new AuthController(),
+        new TransactionController()
     ];
 
     private constructor() {

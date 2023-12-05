@@ -6,26 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="57c3f06e-aeb6-43cf-ba93-414c14264446" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application-core/application-core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/application-core.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application-core/product/use-cases/findMany.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/product/use-cases/findManyProducts.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/repository/Repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/repository/Repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/Handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/Handler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/IHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/IHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/concrete/compare-token.concrete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/use-cases/compare-token.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/concrete/verify-token.concrete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/use-cases/verify-token.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/middleware/jwt.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/middleware/jwt.middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/use-cases/strategy.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/use-cases/strategy.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/gateways/product.gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/gateways/product.gateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/models/product.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/models/product.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user-interface/controllers/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/controllers/product.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/product/use-cases/updateProduct.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/product/use-cases/updateProduct.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/transaction/use-cases/buyProduct.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/transaction/use-cases/buyProduct.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/payment-strategy.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/use-cases/card-payment.interactor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/use-cases/pse-payment.interactor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/controllers/transaction.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/controllers/transaction.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +105,7 @@
       <workItem from="1700834725401" duration="7087000" />
       <workItem from="1700842886281" duration="27000" />
       <workItem from="1701349795138" duration="729000" />
-      <workItem from="1701716968171" duration="20545000" />
+      <workItem from="1701716968171" duration="21935000" />
     </task>
     <servers />
   </component>

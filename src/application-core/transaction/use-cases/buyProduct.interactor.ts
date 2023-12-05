@@ -11,7 +11,6 @@ export class BuyProductInteractor {
     }
 
     async execute(payload: BuyProductDto, res: Response): Promise<Response> {
-        console.log('Payload: ', payload)
         const product = await this.productGateway.findById(payload.productId)
 
         if (!product) {
@@ -25,9 +24,17 @@ export class BuyProductInteractor {
             })
         }
 
-        const TOTAL_TO_PAY: number = product.price * payload.quantity;
+        const transaction = await this.productGateway.update(payload.productId, {
+            stock: product.stock - payload.quantity
+        });
 
-        const isPayed = this.pay(TOTAL_TO_PAY, payload.paymentMethod);
+        if (!transaction) {
+            return res.status(400).json({
+                message: "Error al realizar la compra"
+            })
+        }
+
+        const TOTAL_TO_PAY: number = product.price * payload.quantity;
 
         const LIMIT: number = 10;
         if (product.stock <= LIMIT) {
@@ -36,11 +43,12 @@ export class BuyProductInteractor {
         }
 
         return res.status(202).json({
-            message: "Compra realizada exitosamente"
+            message: "Compra realizada exitosamente",
+            data: {
+                subtotal: TOTAL_TO_PAY,
+                tax: TOTAL_TO_PAY * 0.19,
+                total: TOTAL_TO_PAY * 1.19,
+            }
         })
-    }
-
-    private pay(VALUE_TO_PAY: number, paymentMethod: any): boolean {
-        return true;
     }
 }
