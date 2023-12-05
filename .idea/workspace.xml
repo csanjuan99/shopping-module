@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57c3f06e-aeb6-43cf-ba93-414c14264446" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/product/use-cases/updateProduct.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/product/use-cases/updateProduct.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/transaction/use-cases/buyProduct.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/transaction/use-cases/buyProduct.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/payment-strategy.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/use-cases/card-payment.interactor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/transaction/strategy/use-cases/pse-payment.interactor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/controllers/transaction.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/controllers/transaction.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Wyu57HN6YEvonSzV7OaWFvmkI2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\desar\\dev\\apps\\node-apps\\shopping-module\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\dev\\apps\\node-apps\\shopping-module\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\product\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\product\observer\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth\CoR\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth\CoR" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev:local" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:local" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev:local" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57c3f06e-aeb6-43cf-ba93-414c14264446" name="Changes" comment="" />
+      <created>1697716960061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697716960061</updated>
+      <workItem from="1697716963028" duration="3998000" />
+      <workItem from="1697723028533" duration="795000" />
+      <workItem from="1697723844529" duration="5000" />
+      <workItem from="1697723860942" duration="8921000" />
+      <workItem from="1698150233724" duration="14660000" />
+      <workItem from="1698170958388" duration="5606000" />
+      <workItem from="1698176644024" duration="1693000" />
+      <workItem from="1698240067320" duration="1400000" />
+      <workItem from="1698929963602" duration="4785000" />
+      <workItem from="1699525403355" duration="3542000" />
+      <workItem from="1700412601917" duration="646000" />
+      <workItem from="1700435638804" duration="7519000" />
+      <workItem from="1700781501595" duration="34000" />
+      <workItem from="1700781591643" duration="6247000" />
+      <workItem from="1700834725401" duration="7087000" />
+      <workItem from="1700842886281" duration="27000" />
+      <workItem from="1701349795138" duration="729000" />
+      <workItem from="1701716968171" duration="21935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/app.module.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/user-interface/user-interface.module.js" />
+        <option value="$PROJECT_DIR$/src/common/interfaces/IController.js" />
+        <option value="$PROJECT_DIR$/src/common/container/provider.container.js" />
+        <option value="$PROJECT_DIR$/src/application-core/products/use-cases/findMany.interactor.js" />
+        <option value="$PROJECT_DIR$/src/application-core/application-core.module.js" />
+        <option value="$PROJECT_DIR$/src/user-interface/controllers/product.controller.js" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@types/jsonwebtoken/index.d.ts</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
