@@ -1,15 +1,15 @@
 import {Handler} from "../Handler";
 import {Request} from "express";
-import {CompareTokenConcrete} from "./compare-token.concrete";
+import {CompareTokenInteractor} from "./compare-token.interactor";
 
-export class VerifyTokenConcrete extends Handler {
+export class VerifyTokenInteractor extends Handler {
 
     constructor() {
         super();
     }
 
     public handle(request: Request): void {
-        this.next(new CompareTokenConcrete());
+        this.next(new CompareTokenInteractor());
         const HEADERS = request.headers;
         if (!HEADERS) {
             throw new Error('Se requirere autenticación para continuar.');

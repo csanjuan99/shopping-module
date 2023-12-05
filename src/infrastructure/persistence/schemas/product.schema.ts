@@ -6,6 +6,7 @@ const schema = new Schema({
   price: Number,
   stock: Number,
   isFeatured: Boolean,
+  image: String,
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
 });

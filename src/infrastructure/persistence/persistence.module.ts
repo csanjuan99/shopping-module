@@ -1,12 +1,13 @@
 import mongoose from "mongoose";
 import {IoC} from "../../config/provider/IoC";
 import {ProductSchema} from "./schemas/product.schema";
+import {UserSchema} from "./schemas/user.schema";
 
 export class PersistenceModule {
 
     private static instance: PersistenceModule;
     private readonly connection: mongoose.Connection;
-    private SCHEMAS = [ProductSchema];
+    private SCHEMAS = [ProductSchema, UserSchema];
 
     constructor() {
         this.connection = IoC.getInstance().resolve('Connection')

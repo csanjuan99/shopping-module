@@ -9,6 +9,7 @@ export abstract class Handler implements IHandler {
         if (this.nextHandler != null) {
             this.nextHandler.handle(request);
         }
+        return;
     }
 
     next(h: IHandler | null): void {

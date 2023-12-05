@@ -1,10 +1,8 @@
-import {VerifyTokenConcrete} from "../concrete/verify-token.concrete";
+import {VerifyTokenInteractor} from "../CoR/use-cases/verify-token.interactor";
 import { Request } from "express";
 export class StrategyInteractor {
-    constructor() {}
-
     async execute(request: Request) {
-        const verifyTokenConcrete = new VerifyTokenConcrete();
+        const verifyTokenConcrete = new VerifyTokenInteractor();
         return verifyTokenConcrete.handle(request);
     }
 }

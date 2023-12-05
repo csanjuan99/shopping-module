@@ -13,18 +13,18 @@ export class InfrastructureModule {
         this.connectToDatabase();
     }
 
-    private connectToDatabase() {
-        const connection = mongoose.createConnection('mongodb+srv://root:IzP1UypHEOnui4iF@cluster0.ithkbzf.mongodb.net/shopping-module');
+    private connectToDatabase(): void {
+        const connection: mongoose.Connection = mongoose.createConnection('mongodb+srv://root:IzP1UypHEOnui4iF@cluster0.ithkbzf.mongodb.net/shopping-module');
         this.setConnection(connection);
 
     }
 
-    private setConnection(connection: mongoose.Connection) {
+    private setConnection(connection: mongoose.Connection): void {
         this.connection = connection
         IoC.getInstance().register('Connection', this.connection)
     }
 
-    public static getInstance() {
+    public static getInstance(): InfrastructureModule {
         if (!InfrastructureModule.instance) {
             InfrastructureModule.instance = new InfrastructureModule();
             return InfrastructureModule.instance;
@@ -32,7 +32,7 @@ export class InfrastructureModule {
         return InfrastructureModule.instance;
     }
 
-    public getConnection() {
+    public getConnection(): mongoose.Connection | null {
         return this.connection;
     }
 }

@@ -1,16 +1,20 @@
 import {Request} from "express";
 import {Handler} from "../Handler";
-import {verify} from "jsonwebtoken";
+import jsonwebtoken from "jsonwebtoken";
+import "dotenv/config";
 
-export class CompareTokenConcrete extends Handler {
+export class CompareTokenInteractor extends Handler {
     constructor() {
         super();
     }
 
-    public handle(request: Request): void {
+    public handle(request: Request | any): void {
         this.next(null);
         try {
-            verify(request.headers.authorization ?? '', process.env.SECRET_KEY ?? '');
+            const authorization = request.headers.authorization || request.headers['Authorization'];
+            const secret: string = process.env.JWT_SECRET || '';
+            jsonwebtoken.verify(authorization.split(' ')[1], secret);
+            request.user = jsonwebtoken.decode(authorization.split(' ')[1]);
         } catch (e: Error | any) {
             const type: string = e.name;
             if (type === 'TokenExpiredError') {

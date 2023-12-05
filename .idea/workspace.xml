@@ -8,16 +8,24 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application-core/application-core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/application-core.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/controller/controller.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/controller/IController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/model/model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/model/Model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/provider/provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/provider/IoC.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/repository/repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/repository/Repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application-core/product/use-cases/findMany.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/application-core/product/use-cases/findManyProducts.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/repository/Repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/repository/Repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/Handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/Handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/IHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/IHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/concrete/compare-token.concrete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/use-cases/compare-token.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/concrete/verify-token.concrete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/CoR/use-cases/verify-token.interactor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/middleware/jwt.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/middleware/jwt.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/auth/use-cases/strategy.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/auth/use-cases/strategy.interactor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/infrastructure.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/gateways/product.gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/gateways/product.gateway.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/models/product.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/models/product.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/persistence.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/schemas/product.schema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user-interface/controllers/product.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/controllers/product.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/user-interface/user-interface.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +69,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure" />
-      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\modules" />
-      <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src\application-core" />
-      <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src\user-interface" />
-      <recent name="C:\Users\desar\dev\apps\node-apps\shopping-module\src\application-core\product" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\product\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\product\observer\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth\CoR\use-cases" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth\CoR" />
+      <recent name="C:\dev\apps\node-apps\shopping-module\src\infrastructure\auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,7 +114,11 @@
       <workItem from="1700412601917" duration="646000" />
       <workItem from="1700435638804" duration="7519000" />
       <workItem from="1700781501595" duration="34000" />
-      <workItem from="1700781591643" duration="6200000" />
+      <workItem from="1700781591643" duration="6247000" />
+      <workItem from="1700834725401" duration="7087000" />
+      <workItem from="1700842886281" duration="27000" />
+      <workItem from="1701349795138" duration="729000" />
+      <workItem from="1701716968171" duration="20545000" />
     </task>
     <servers />
   </component>
@@ -131,7 +143,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/node_modules/@types/jsonwebtoken/index.d.ts</url>
           <line>10</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -2,7 +2,7 @@ import {StrategyInteractor} from "../use-cases/strategy.interactor";
 import {NextFunction, Request, Response} from "express";
 
 export const JwtMiddleware = async (req: Request, res: Response, next: NextFunction) => {
-    const strategyInteractor = new StrategyInteractor();
+    const strategyInteractor: StrategyInteractor = new StrategyInteractor();
     try {
         await strategyInteractor.execute(req);
         next();
